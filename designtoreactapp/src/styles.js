@@ -27,6 +27,14 @@ export const Layout = styled.div`
   flex-direction: column;
   align-items: flex-start;
   padding: 16px;
+  justify-content: space-between;
+  height: 100%;
+`;
+
+export const TopLayout = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 `;
 
 export const Heading = styled.h2`
@@ -39,4 +47,46 @@ export const Heading = styled.h2`
 export const Summary = styled.p`
   font-size: 14px;
   line-height: 24px;
+  color: grey;
+`;
+
+export const BottomInformation = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+`;
+
+export const Label = styled.span`
+  font-size: 14px;
+  line-height: 20px;
+  background: lightgreen;
+  padding: 5px;
+  border-radius: 12px;
+`;
+
+export const AvartarAndText = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 16px;
+`;
+
+export const AvatarImg = styled.img`
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+`;
+
+export const Info = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 12px;
+`;
+
+export const Author = styled.div`
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
 `;
